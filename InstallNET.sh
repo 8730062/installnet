@@ -357,7 +357,6 @@ if [[ -n "$tmpDIST" ]]; then
         [[ "$isDigital" == '9' ]] && DIST='stretch';
         [[ "$isDigital" == '10' ]] && DIST='buster';
         [[ "$isDigital" == '11' ]] && DIST='bullseye';
-	[[ "$isDigital" == '11.5' ]] && DIST='Debian11.5';
         # [[ "$isDigital" == '12' ]] && DIST='bookworm';
       }
     }
@@ -797,5 +796,4 @@ else
   [[ -f "/boot/vmlinuz" ]] && rm -rf "/boot/vmlinuz"
   echo && ls -AR1 "$HOME/loader"
 fi
-
 
