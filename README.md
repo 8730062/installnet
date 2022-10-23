@@ -1,5 +1,7 @@
 # installnet
 萌卡大佬的dd脚本个人备份
+个人备份： bash <(wget --no-check-certificate -qO- 'https://github.com/8730062/installnet/blob/main/InstallNET.sh') -d 11 -v 64 -a -p "你的密码"
+以下是萌卡大佬原文：
 基本所有的VPS服务器商家，都会提供免费的Linux系统供安装，比如CentOS、Debian、Ubuntu等。那为什么还要使用一键DD脚本重装/更换系统呢？
 
 商家提供的系统版本有限，可能没有自己需要的版本。
